@@ -5,4 +5,4 @@
 1. [ ] cloning a repository for offline development
 1. [ ] initiating a code review process for a repository
 1. [x] creating a copy of a repository for personal use
-1. [ ] creating a parallel brnach for experimental changes
+1. [ ] creating a parallel branch for experimental changes
