@@ -1,6 +1,8 @@
 # What are the primary differences between GitHub Desktop and GitHub.com? 
 
-> GitHub Desktop is a desktop application for managing Git repositories locally, while github.com is a web-based platform for hosting, collaboration, and project management. [GitHub Docs - About GitHub Desktop](https://docs.github.com/en/desktop/overview/about-github-desktop)
+> GitHub Desktop is a desktop application for managing Git repositories locally, while github.com is a web-based platform for hosting, collaboration, and project management.
+> 
+> [GitHub Docs - About GitHub Desktop](https://docs.github.com/en/desktop/overview/about-github-desktop)
 
 1. [ ] GitHub Desktop is a command-line interface for Git.
 Github.com is a web-based platform for hosting repositories.
