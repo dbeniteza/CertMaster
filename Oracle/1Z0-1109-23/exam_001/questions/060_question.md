@@ -1,0 +1,8 @@
+# A DevSecOps professional has employed OCI Vault service to sign a container image using cryptographic keys. However, during an attempt to verify a specific image's signature utilizing the Vault service, the verification process fails. Which of the subsequent options could potentially account for this unsuccessful verification?
+
+> The reason for the image verification failure when using the OCI Vault service could be that RSA asymmetric keys were not utilized, which is required for cryptographic operations. Oracle Cloud Infrastructure Vault mandates the use of RSA asymmetric keys for signing images. If any other key type, such as AES symmetric keys, was employed for image signing, the verification process would fail. It is crucial to ensure that the supported RSA asymmetric keys are used for signing to enable successful image verification through the OCI Vault service.
+
+1. [ ] The process incorporated both the OCID of the master encryption key and the OCID of the corresponding key version from Oracle Cloud Infrastructure Vault for image signing.
+1. [ ] The cryptographic keys employed in Oracle Cloud Infrastructure Vault for image signing were based on asymmetric algorithms like RSA or ECDSA.
+1. [x] The cryptographic keys utilized in Oracle Cloud Infrastructure Vault for image signing were generated through symmetric AES keys.
+1. [ ] While utilizing OCI CLI for image signature creation, the --description and --metadata parameters were intentionally left devoid of input.
