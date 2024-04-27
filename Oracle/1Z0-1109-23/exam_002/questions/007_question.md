@@ -1,0 +1,8 @@
+# As a DevOps engineer, you are responsible for monitoring high-traffic web applications running on multiple OCI resources, including virtual machines, load balancers, and databases. You want to set up alerts based on the specific conditions and integrate with other OCI services. There are failures reported accessing one of the OCI-based web application and suspected HTTP 5XX errors on the load balancer that need to be quickly identified. Which feature can help you accomplish this task?
+
+> In this scenario, you need to quickly find and report any HTTP 5XX errors occurring on the OCI load balancer used by the OCI-based web application. The quickest way to accomplish this task is to use the OCI Monitoring service with the Metrics feature to monitor the HTTP 5XX error rate on the load balancer and the Alarms feature to set up notifications with OCI Notifications. This will alert you to the issue as soon as it occurs.
+
+1. [ ] Use Metrics and Alarms of the Monitoring service with Container Engine for Kubernetes (OKE) to monitor HTTP 5XX errors on Kubernetes resources and correlate them with other OCI resources.
+1. [x] Use Metrics and Alarms of the Monitoring service to monitor the HTTP 5XX error rate on the load balancer and set up notifications with OCI Notifications.
+1. [ ] Use Custom Metrics of the Monitoring service to collect HTTP 5XX error rates from the load balancer and set up Service Connectors with third-party services such as PagerDuty or Slack.
+1. [ ] Use Event Rules to detect HTTP 5XX errors on the load balancer and trigger automated actions using OCI Functions or API Gateway.

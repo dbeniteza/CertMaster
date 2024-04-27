@@ -1,0 +1,8 @@
+# ABC E-commerce is an online retail company that operates on a DevOps model, with constant releases to their e-commerce platform. Their platform is built using various software packages and dependencies, some of which may contain vulnerabilities. Recently, the company suffered a major security breach due to an unpatched vulnerability in one of their dependencies. This resulted in a loss of customer data and a damaged reputation. The DevSecOps team at ABC E-commerce want to prevent such incidents in the future by identifying vulnerabilities in software packages and their dependencies early in the SDLC within their DevOps pipeline. They want to integrate an OCI service that can help them achieve this goal. What OCI service should they integrate with their DevOps project to achieve this?
+
+> ADM is the OCI service that detects security vulnerabilities in application dependencies and helps teams answer questions such as which dependencies contain known security vulnerabilities. Integrating ADM in the Managed Build stage of the DevOps pipeline allows the detection of vulnerabilities early in the SDLC, which can be critical for e-commerce applications that require constant releases. APM helps teams monitor and diagnose performance issues in applications, OS Management is focused on managing the OS layer, and AVM does not exist.
+
+1. [ ] Application Performance Monitoring (APM)
+1. [ ] OS Management
+1. [x] Application Dependency Management (ADM)
+1. [ ] Application Vulnerability Management (AVM)

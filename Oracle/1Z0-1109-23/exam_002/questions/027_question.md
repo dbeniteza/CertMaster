@@ -1,0 +1,8 @@
+# Your team is responsible for deploying a new version of a critical application in the production environment of your company's e-commerce website. To minimize downtime and ensure a smooth deployment, you decide to use the Blue-Green deployment strategy in OCI DevOps service. What is the purpose of the Blue-Green traffic shift stage in this scenario?
+
+> The purpose of the Blue-Green traffic shift stage in a Blue-Green deployment strategy is to switch the traffic from the old (blue) environment to the new (green) environment once the green environment has been validated and is ready to receive traffic. This ensures a seamless transition with minimal downtime. The traffic shift can be done gradually or all at once, depending on the deployment requirements.
+
+1. [x] To shift 100% of the production traffic from the current active environment to the standby environment that is running the validated new version of the application, ensuring a seamless transition with minimal downtime
+1. [ ] To invoke a custom function that tests the new version of the application in the standby environment, ensuring that it is working properly before shifting the production traffic
+1. [ ] To add a manual approval step to approve the deployment in the standby environment before shifting the production traffic, ensuring that the new version has been properly validated
+1. [ ] To select the two environments (for instance, group or OKE) along with the artifacts to be deployed, ensuring a smooth deployment process
